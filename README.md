@@ -56,7 +56,7 @@ Many of these were adapted from [the Pocoo team][pocoo].
 - Constants: `UPPER_WITH_UNDERSCORES`.
 - Precompiled regular expressions: `name_re`.
 
-[pocoo]: http://www.pocoo.org/internal/styleguide/
+[pocoo]: https://flask.palletsprojects.com/en/1.1.x/styleguide/
 
 You should generally follow these rules, unless you are mirroring some other tool's naming convention, like a database schema or message format.
 
@@ -665,11 +665,13 @@ $ python
 
 ## Contributors
 
-- Andrew Montalenti ([@amontalenti][amontalenti]): original author
-- Vincent Driessen ([@nvie][nvie]): edits and suggestions
+- Andrew Montalenti ([twitter][amontalenti]): original author
+- Vincent Driessen ([twitter][nvie]): edits and suggestions
+- William Feng ([github][williamfzc]): translation to zh-cn
 
-[amontalenti]: http://twitter.com/amontalenti
-[nvie]: http://twitter.com/nvie
+[amontalenti]: https://twitter.com/amontalenti
+[nvie]: https://twitter.com/nvie
+[williamfzc]: https://github.com/williamfzc
 
 ---
 
