@@ -79,7 +79,7 @@ This is OK in a pinch, but it might be better to just choose a different name.
 
 You should rarely use `__mangled` double-underscore prefixes for class/instance/method labels, which have special [name mangling behavior][mangling] -- it's rarely necessary. Never create your own names using `__dunder__` adornments unless you are implementing a Python standard protocol, like `__len__`; this is a namespace specifically reserved for Python's internal protocols and shouldn't be co-opted for your own stuff.
 
-[mangling]: https://docs.python.org/2/tutorial/classes.html#private-variables-and-class-local-references
+[mangling]: https://docs.python.org/3/tutorial/classes.html#private-variables
 
 ### Avoid One-Character Names
 
@@ -675,6 +675,6 @@ $ python
 
 ---
 
-Like good Python style? Then perhaps you'd like to [work on our team of Pythonistas][tweet] at Parse.ly!
+Like good Python style? Then perhaps you'll enjoy this style guide author's [past blog posts on Python][amonpy].
 
-[tweet]: https://twitter.com/amontalenti/status/682968375702716416
+[amonpy]: https://amontalenti.com/?s=python
